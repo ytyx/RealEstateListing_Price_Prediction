@@ -1,11 +1,28 @@
-# RealEstateListing_Price_Prediction
+# Real Estate Listing Price Prediction
 
-![MSDS630_predict_listing_price](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/73408622-5cd3-4bda-bba2-619c8c52c5b1)
-![MSDS630_predict_listing_price](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/6c2872ac-8c57-4d3d-888a-94b7d98ca378)
-![MSDS630_predict_listing_price (1)](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/5f438723-f5ee-414b-a014-0ce4d36521f2)
-![MSDS630_predict_listing_price (2)](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/eb346a76-dc4b-49cc-b3ab-e633d2f87398)
-![MSDS630_predict_listing_price (3)](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/c16b1138-5dea-4b32-aa26-e71b15da2764)
-![MSDS630_predict_listing_price (4)](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/6207c671-6216-412f-a130-e47ceffc182e)
-![MSDS630_predict_listing_price (5)](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/0916e6ba-274e-4ae7-9a2a-aa3f874d7db4)
-![MSDS630_predict_listing_price (6)](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/20ecd5c1-dd64-4e15-a7e3-bc03befc84b9)
-![MSDS630_predict_listing_price (7)](https://github.com/ytyx/RealEstateListing_Price_Prediction/assets/87250788/167f8e2d-c441-4703-996e-7e88808cf9db)
+This repository contains a comprehensive project aimed at predicting real estate listing prices using advanced machine learning techniques. The goal is to develop a robust model that accurately estimates property prices based on various features, facilitating better decision-making for buyers, sellers, and real estate professionals.
+
+## Project Overview
+
+The project is structured into two main phases:
+
+1. **Data Preprocessing and Exploration**: In this phase, we clean and preprocess the dataset, handle missing values, encode categorical variables, and perform exploratory data analysis (EDA) to understand the relationships between features and the target variable (listing price).
+
+2. **Model Development and Evaluation**: Here, we implement multiple machine learning models, fine-tune their hyperparameters, and evaluate their performance using appropriate metrics. The models include linear regression, decision trees, random forests, and gradient boosting algorithms.
+
+## Key Features
+
+- **Data Preprocessing**: Utilized techniques such as one-hot encoding and TF-IDF for categorical and textual data, respectively, to prepare the dataset for modeling.
+<img width="868" alt="Screenshot 2025-01-23 at 2 02 32 PM" src="https://github.com/user-attachments/assets/21a76ccf-6852-46be-9a8c-f21d4b92169a" />
+
+- **Feature Engineering**: Created new features and transformed existing ones to enhance model performance: used Google API to convert location features into coordinates.
+
+- **Modeling**: Implemented and compared various machine learning models, including ensemble methods like XGBoost and CatBoost, to identify the best-performing model.
+
+- **Hyperparameter Tuning**: Applied RandomizedSearch Cross-Validation to fine-tune model parameters for optimal performance.
+
+- **Model Evaluation**: Assessed models using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared to determine their accuracy and reliability.
+
+## Results
+
+The final model demonstrated high accuracy in predicting real estate listing prices, outperforming baseline models and meeting the project's objectives. Detailed results and performance metrics are documented in the project notebooks.
